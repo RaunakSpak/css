@@ -1,0 +1,61 @@
+body {
+    background: black;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 4px;
+    grid-row-gap: 0px;
+
+}
+
+.div1 {
+    background: rgb(231, 22, 22);
+    width: 100%;
+    height: 100px;
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+.div2 {
+    background: rgb(26, 210, 216);
+    width: auto;
+    grid-area: 1 / 2 / 2 / 3;
+}
+
+.div3 {
+    background: rgb(58, 34, 192);
+    width: auto;
+    grid-area: 1 / 3 / 2 / 4;
+}
+
+.div4 {
+    background: rgb(7, 145, 238);
+    width: auto;
+    grid-area: 1 / 4 / 2 / 5;
+}
+
+.div5 {
+    background: rgb(155, 16, 136);
+    width: auto;
+    grid-area: 1 / 5 / 2 / 6;
+}
+
+.container {
+    background: transparent;
+    width: 50%;
+    height: 500px;
+    box-shadow: 0px 0px 113px 39px rgba(45, 255, 196, 0.46);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+.border{
+    background: rgb(29, 1, 1);
+    width: 60%;
+    height: 500px;
+    
+}
